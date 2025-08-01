@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 40px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  padding: 5px;
+}
+.no-border {
+  border: none;
+}
+.signature-blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.signature {
+  text-align: center;
+  width: 30%;
+}
+.misa-potpis {
+  margin: 0px;
+  width: 200px;
+}
+.milos-potpis {
+  font-family: "Indie Flower", cursive;
+  font-size: 28px;
+  margin: 0px;
+}
+.signature:nth-child(1) p:nth-child(4) {
+  margin-top: 0px;
+}
+input[type="text"], input[type="number"] {
+  padding: 5px;
+  margin: 5px 0;
+}
+.btn {
+  margin: 10px 5px 20px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+@media print {
+  body {
+    margin: 20px;
+  }
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+  .no-print {
+    display: none;
+  }
+}
+.button {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  border: none;
+  background: #056bfa27;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.lable {
+  margin-top: 1px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #056dfa;
+  letter-spacing: 1px;
+}
+.button:hover {
+  background: #056bfa49;
+}

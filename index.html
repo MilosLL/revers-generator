@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="sr">
+
 <head>
   <meta charset="UTF-8">
   <title>Revers Generator</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="globalkom.jpg" type="image/x-icon">
 </head>
+
 <body>
   <h2 class="no-print">Unos reversa</h2>
   <div class="no-print">
@@ -19,11 +24,14 @@
         <label>Količina: <input type="number" class="kolicina" min="1" value="1"></label>
       </div>
     </div>
-    <button class="btn button" onclick="addItem()"><span class="lable"><i class="fa-solid fa-plus"></i> Dodaj stavku</span></button>
-    <button class="btn button" onclick="generateRevers()"><span class="lable">Generiši revers <i class="fa-solid fa-gears"></i></span></button>
+    <button class="btn button" onclick="addItem()"><span class="lable"><i class="fa-solid fa-plus"></i> Dodaj
+        stavku</span></button>
+    <button class="btn button" onclick="generateRevers()"><span class="lable">Generiši revers <i
+          class="fa-solid fa-gears"></i></span></button>
   </div>
   <div class="no-print">
-    <button class="btn button" onclick="window.print()"><span class="lable">Preuzmi PDF <i class="fa-solid fa-download"></i></span></button>
+    <button class="btn button" onclick="window.print()"><span class="lable">Preuzmi PDF <i
+          class="fa-solid fa-download"></i></span></button>
   </div>
   <hr class="no-print">
   <div id="reversOutput"></div>
@@ -75,8 +83,8 @@
             </div>
           </div>
         </div>`;
-          document.title = `Revers ${reversBr} ${imeZaposlenog}`;
     }
   </script>
 </body>
+
 </html>
